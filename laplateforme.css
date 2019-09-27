@@ -1,0 +1,420 @@
+footer{
+background:#ffca4b;
+bottom:0;
+width:100%;
+
+}
+
+.pics{
+background:#88c1d0;
+position:absolute;
+bottom:0;
+width:0%;
+}
+
+#conteneur{
+  text-align: center;
+  vertical-align: middle;
+}
+
+.align1{
+	align-content:center width="33%";
+}
+.align2{
+	align-content: center;
+}
+
+.linky {
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+#main-header2 {
+	height: auto;
+	width: 100%;
+}
+
+#logo2 {
+	height: 50px;
+	width: 300px;
+}
+
+#container-logo2 {
+	display: block;
+	background-color: white;
+	width: 100%;
+	height: 60px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#top-nav2 {
+	display: block;
+	background-color: red;
+	height: 60px;
+	width: 100%;
+	padding-top: 1px;
+	text-align: center;
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: #88c1d0;
+    position: sticky;
+    top: 0px;
+    padding-top: 1px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: #ffca4b;
+    border-bottom: 2px solid transparent;
+    padding: 0px 0px;
+}
+
+nav a:hover{
+    color: white;
+}
+
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: #275fa0;
+    width: 250px;
+    z-index: 1000;
+    position: absolute;
+}
+
+nav > ul li:hover .sous{
+    display: block;
+}
+
+.sous li{
+    width: 100%;
+    text-align: left;
+    margin-left: -20px;
+}
+
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+    text-align: center;
+}
+
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+
+#presentation2 {
+    height: 400px;
+    width: 100%;
+    background-color: #ffca4b;
+    text-align: center;
+}
+
+#grandlogo2 {
+    height: 400px;
+    width: 400px;
+}
+
+.tableauinfo2 {
+    height: 300px;
+    width: 300px;
+    font-size: 26px;
+    color: #88c1d0;
+}
+
+.tableinfo2 {
+    margin:auto;
+}
+
+#triformation2 {
+    height: 800px;
+    width: 100%;
+    background-color: #88c1d0;
+    text-align: center;
+}
+
+#trilogo2 {
+    height: 100px;
+    width: 100px;
+}
+
+.tabletriformation2logo {
+    width: 200px;
+    font-size: 18px;
+    color: #ffca4b;
+    padding-top: 50px;
+}
+
+.tabletriformation2 {
+        width: 200px;
+    font-size: 18px;
+    color: black;
+    padding-top: 20px;
+    border: 2px solid white;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+body {
+   background-color: #275fa0;
+}
+
+@font-face {
+     font-family: "roboto3bold";
+     src: url("RobotoMono-Bold.ttf") format("truetype");
+}
+
+@font-face {
+     font-family: "robotoregular3";
+     src: url("Roboto-Regular.ttf") format("truetype");
+}
+
+.video3 {
+	margin-top:80px;
+}
+
+
+.youtube3 {
+width:500px;
+height:300px;
+}
+
+.ensavoirplus3 {
+	margin-top:20px;
+	text-align:center;
+	font-size:20px;
+	color:white;
+	font-family:"robotoregular3";
+}
+
+
+.link3 {
+	color:black;
+	color:white;
+}
+
+.link3:hover {
+	color:yellow;
+}
+
+.h1-3 {
+	font-size: 35px;
+	margin-left:220px;
+	margin-top: 15px;
+	color:white;
+}
+.paragraphe3 {
+	display:block;
+	color:white;
+	font-family:"robotoregular3";
+	font-size: 20px;
+}
+
+.p-3 {
+	margin-right:200px;
+	width:600px;
+	float:right;
+	color:white;
+	font-family:"robotoregular3";
+}
+
+
+.article-coding-school {
+	float:left;
+	display:block;
+	color:white;
+	font-family:"roboto3bold";
+}
+
+.logoligne1-3 {
+	margin-left:180px;
+}
+
+.logo3 {
+	margin-top:20px;
+}
+
+.image-3 {
+	height:150px;
+	width:240px;
+}
+
+.image-32 {
+	height:70px;
+	width:70px;
+	margin-bottom:40px;
+}
+
+.logoligne2-3 {
+	margin-top:-20px;
+	margin-left:40px;
+}
+
+.image-33 {
+	height:40px;
+	width:150px;
+	margin-bottom:20px;
+	margin-left:240px;
+}
+
+.bouton3 {
+margin-left: 620px;
+margin-top: 220px;
+}
+
+
+.lebouton3 {
+padding: 10px 30px; 
+text-decoration: none;
+background: #ffca4b; 
+color: white; 
+border-radius:20px;
+font-family:"roboto3bold";
+}
+
+.lebouton3:hover {
+background: black; 
+}
+
+
+
+
+
+
+
+#sec12 {
+        height: 400px;
+    width: 100%;
+    background-color: #ffca4b;
+    text-align: center;
+}
+
+#sec21 {
+        height: 910px;
+    width: 100%;
+    background-color: #275fa0;
+    text-align: center;
+}
+
+.lien2 {
+    text-decoration: none;
+    color: lightblue;
+}
+
+#titleqsn2 {
+    text-align: center;
+    width: 600px;
+    height: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#video2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#partenaire2 {
+    height: 550px;
+    width: 100%;
+    background-color: #ffca4b;
+    text-align: center;
+    padding-top: 1px;
+}
+
+#imgpartenaire {
+    height:100px;
+    width: 160px;
+}
+
+.tablepartenaire {
+    height: 120px;
+    width: 180px;
+}
+
+#partenairecontainer {
+    padding-top: 40px;
+}
+
+
+
+body {
+	  font-family: 'Roboto Mono',monospace;
+	  font-style: italic;
+}
+
+
+.h1formulaire { 
+	           text-align: center;
+}
+
+
+.article1formulaire {
+	                 text-align: center;
+}
+
+.h2 {
+	text-align: center;
+	border: solid black;
+	border-width: 70%;
+}
+.h2:hover{
+	      background-color:#ffca4b;
+}
+
+.article3formulaire { 
+	                 text-align: center;
+}
+
+.section1formulaire {
+	                 background-color:#ffca4b ;
+ }
+
+.section2formulaire {
+	                 background-color: #88c1d0;
+}
+
+form {
+	  background-color: #88c1d0 ; 
+	  margin left: 40%;
+}
+input{
+	  background-color: #88c1d0
+}
